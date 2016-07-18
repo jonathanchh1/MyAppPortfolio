@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.jonat.myappportfolio.MainActivity">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Popular_Movies"
+        android:background="@color/colorPrimary"
+        android:textColor="@color/button_color"
+        android:id="@+id/btn_popular_movies"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="48dp"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Stock_Hawk"
+        android:background="@color/colorPrimary"
+        android:textColor="@color/button_color"
+        android:id="@+id/btn_stock_hawk"
+        android:layout_below="@+id/btn_popular_movies"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="match_parent"
+        android:background="@color/colorPrimary"
+        android:textColor="@color/button_color"
+        android:layout_height="wrap_content"
+        android:text="@string/Build_It_Bigger"
+        android:id="@+id/btn_build_it_bigger"
+        android:layout_below="@+id/btn_stock_hawk"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:textColor="@color/button_color"
+        android:text="@string/Go_ubiquitous"
+        android:id="@+id/btn_go_ubiquitous"
+        android:layout_below="@+id/btn_make_your_app"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="30dp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Make_your_app_material"
+        android:id="@+id/btn_make_your_app"
+        android:textColor="@color/button_color"
+        android:background="@color/colorPrimary"
+        android:layout_below="@+id/btn_build_it_bigger"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="30dp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Capstone"
+        android:id="@+id/btn_capstone"
+        android:layout_below="@+id/btn_go_ubiquitous"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="@color/colorPrimary"
+        android:textColor="@color/button_color"
+        android:layout_marginTop="30dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/title"
+        android:textSize="@dimen/Text_Sizes"
+        android:id="@+id/title_textview"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="80dp"
+        android:layout_marginStart="60dp" />
+</RelativeLayout>

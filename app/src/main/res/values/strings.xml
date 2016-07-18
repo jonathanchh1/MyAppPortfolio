@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">My App Portfolio</string>
+    <string name="Popular_Movies">Popular Movies</string>
+    <string name="Stock_Hawk">Stock Hawk</string>
+    <string name="Build_It_Bigger">Build it Bigger</string>
+    <string name="Make_your_app_material">Make Your App Material</string>
+    <string name="Go_ubiquitous">Go Ubiquitos</string>
+    <string name="Capstone">Capstone</string>
+    <string name="title">My Nanodegree Apps</string>
+</resources>
