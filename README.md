@@ -1,8 +1,8 @@
 # MyAppPortfolio
-this is my first simple app that i developed when i started my udacity journey. The main idea of the app was the outline the apps that
+This is my first simple app that i developed when i started my udacity journey. The main idea of the app was the outline the apps that
 would have to be built to earn a udacity advanced android certification. 
 
-I learned alot when developing the seemily simple project because,
+I learned alot when developing this seemily simple project because,
 i had never developed anything before it. 
 
 
